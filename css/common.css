@@ -1,0 +1,99 @@
+/* 首页 */
+@font-face {
+  font-family: '';
+  src: url('fonts/仓耳小丸子.ttf');
+}
+* {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+      .dachangtiao {
+        margin: 0 auto;
+        background: linear-gradient(200deg, #fda09b, #918ef9);
+        height: 86px;
+      }
+      .container {
+        width: 1190px;
+        margin: 0 auto;
+      }
+      .topbar {
+        display: flex;
+      }
+      .logo {
+        flex: 1;
+        height: 86px;
+        display: flex;
+        align-items: center;
+      }
+      .logo img {
+        width: 130px;
+        height: 70px;
+        margin: auto;
+      }
+      .welcome {
+        height: 86px;
+        line-height: 86px;
+        font-size: 30px;
+        font-family: "仓耳小丸子";
+      }
+      .nav-daohang {
+        float: left;
+        margin-left: 60px;
+      }
+      .nav ul li {
+        float: left;
+      }
+      .nav ul li a {
+        display: block;
+        padding: 0 30px;
+        line-height: 83px;
+        font-size: 18px;
+        color: #000;
+        font-family: "微软雅黑";
+      }
+      .nav ul li a:hover {
+        color: #ffffff;
+        border-bottom: 2px solid#000000;
+      }
+      .user {
+        float: right;
+        flex: 1;
+        display: flex;
+    justify-content: space-evenly;
+      }
+      .user a {
+        display: inline-block;
+      }
+      .user .login {
+        line-height: 86px;
+        /* margin: 0 25px; */
+        color: #000;
+        font-family: "微软雅黑";
+      }
+      .user .register {
+        line-height: 86px;
+        /* padding: 0 5px; */
+        color: #000;
+        font-family: "微软雅黑";
+      }
+      .user .register:hover {
+        color: #ffffff;
+      }
+      .user .login:hover {
+        color: #ffffff;
+      }
+
+        /* 页脚 */
+      .footer {
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 30px;
+        background: linear-gradient(200deg, #918ef9, #fda09b);
+      }
+      .footer p {
+        color: #fff;
+        font-family: "仓耳小丸子";
+      }

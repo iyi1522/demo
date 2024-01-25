@@ -1,0 +1,18 @@
+/* 图片或轮播图 */
+.banner {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 400px;
+  width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0 0 15px 15px;
+}
+.banner img {
+  width: 100%;
+  margin: -100px auto 0;
+  transform: scale(1, 0.7);
+}
+
+

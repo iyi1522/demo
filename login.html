@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      background-color: #ecf0f3;
+    }
+    .container {
+      position: relative;
+      width: 350px;
+      height: 500px;
+      border-radius: 20px;
+      padding: 40px;
+      background-color: #ecf0f3;
+      box-shadow: 14px 14px 20px #cbced1,-14px -14px 20px white;
+    }
+    .brand-logo {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      border-radius: 50%;
+      background: url(images/tianxin.jpg) center / cover;
+      box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    }
+    .brand-title {
+      margin-top: 10px;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: #fda09b;
+      font-weight: bolder;
+    }
+    .inputs {
+      text-align: left;
+      margin-top: 30px;
+    }
+    label, input, button {
+      display: block;
+      width: 100%;
+      padding: 0;
+      border: none;
+      outline: none;
+    }
+    label {
+      margin-bottom: 4px;
+    }
+    label:nth-child(2) {
+      margin-top: 12px;
+    }
+    input::placeholder {
+      color: gray;
+    }
+    input {
+      padding: 10px 10px 10px 20px;
+      height: 50px;
+      font-size: 14px;
+      border-radius: 50px;
+      background-color: #ecf0f3;
+      box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+      caret-color: #fda09b;
+    }
+    button {
+      margin-top: 20px;
+      height: 40px;
+      border-radius: 20px;
+      color: white;
+      background-color: #fda09b;
+      cursor: pointer;
+      font-weight: bolder;
+      box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+      transition: 0.5s;
+    }
+    button:hover {
+      box-shadow: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand-logo"></div>
+    <div class="brand-title">哇喔</div>
+    <div class="inputs">
+      <label for="">账号</label>
+      <input type="text" placeholder="请输入账号" />
+      <label for="">密码</label>
+      <input type="text" placeholder="请输入密码" />
+      <a href="index.html"><button type="submit">登录</button></a>
+    </div>
+  </div>
+</body>
+</html>

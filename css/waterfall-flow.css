@@ -1,0 +1,12 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* 图片样式 */
+    .container img {
+    position: absolute;
+    transition: all 0.5s;      /* 秒数可以改 */
+    width: 220px;
+  }
